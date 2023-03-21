@@ -5,7 +5,7 @@ This repository contains a proof-of-concept program for encrypting files by mani
 
 To install this program, clone this repository onto your local machine using the following command:
 
-`$ git clone https://github.com/your_username/your_repository.git`
+`$ git clone git@github.com:wldfngrs/bytemod.git
 
 Once you have cloned the repository, navigate to the project directory and run the following command:
 
