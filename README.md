@@ -1,5 +1,5 @@
 # bytemod
-This repository contains a proof-of-concept program for encrypting files by manipulating their individual bytes in a formulaic way. The program takes in a direcotory and applies a specified encryption algorithm to all files of specified wildcard.
+This repository contains a proof-of-concept program for encrypting files by manipulating their individual bytes in a formulaic way. The program takes in a directory and applies a hard-coded encryption algorithm to all files of a specified wildcard.
 
 ## Installation
 
@@ -26,6 +26,14 @@ To decrypt a file, run the following command:
 ## Testing
 
 A test directory has been provided which contains sample input and output files for testing purposes. To test the program, run the following command:
+
+`$ ./bin/bytemod test/*.h -encrypt`
+
+and to decrypt,
+
+`$ ./bin/bytemod test/*.h -decrypt`
+
+To view the individual bytes before and after encryption, set the MAX_DEBUG_FLAG flag. Else, the commands produce no output.
 
 ## Credits
 
